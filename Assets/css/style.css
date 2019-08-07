@@ -1,245 +1,275 @@
 body {
-    margin: 0px;
-    border: 0px;
-    background-color: rgba(214, 18, 28, 0.753);
-
+  margin: 0px;
+  border: 0px;
+  background-color: rgba(214, 18, 28, 0.753);
 }
 
-.container{
-    background-color: rgba(155, 6, 18, 0.712);
-    margin: 0px;
-    padding-bottom: 60px;
-    height: 15px;
-
+.container {
+  background-color: rgba(155, 6, 18, 0.712);
+  margin: 0px;
+  padding-bottom: 60px;
+  height: 15px;
 }
 
 .nav.navbar-nav.navbar-right {
-    color: rgba(155, 6, 18, 0.712);
+  color: rgba(116, 76, 79, 0.712);
+  float: right;
 }
 
- @media screen and (width: 980px) {
-    .container_body {
-      width: 980px;
-      background-color: rgb(255, 113, 125);
-      font-family: 'Pacifico', cursive;
-      font-size: 16px;
-      font-weight: 200px;
-      line-height: 20px;
-      color: rgb(172, 0, 14); 
-    }
-  }
-
-  @media screen and (width: 768px) {
-    .container_body {
-      width: 768px;
-      background-color: rgb(255, 40, 57);
-      font-family: 'Pacifico', cursive;
-      font-size: 16px;
-      font-weight: 200px;
-      line-height: 20px;
-      color: rgb(196, 92, 100); 
-    }
-  }
-
-  @media screen and (width: 640px) {
-    .container_body {
-      width: 640px;
-      background-color: rgb(255, 0, 21);
-      font-family: 'Pacifico', cursive;
-      font-size: 16px;
-      font-weight: 200px;
-      line-height: 20px;
-      color: rgb(196, 40, 53); 
-    }
-  }
-.headerh1 {
-    margin: 0;
-    padding: 25.5px;
-    border: 0;
-    background: rgba(78, 0, 4, 0.685);
-    font-weight: bold;
-    font-size: 22;
-
-}
-
-.headlinks {
-    margin: 0;
-    padding-left: 25px;
-    padding-top: 25px;
-    padding-right: 0;
-    border: 0;
-    font-size: 15;
-    color: rosybrown; 
-
-}
-
-.container_body {
-    max-width: 980px;
-    min-width:640px;
-    height: auto;
-    margin: auto;
-    background-color:pink;
-    font-family: 'Lobster', cursive;
+@media screen and (width: 980px) {
+  .container_body {
+    width: 980px;
+    background-color: rgb(255, 113, 125);
+    font-family: "Pacifico", cursive;
     font-size: 16px;
     font-weight: 200px;
     line-height: 20px;
-    color: rgba(78, 0, 4, 0.685)
-    
-    
+    color: rgb(172, 0, 14);
+  }
+}
+
+@media screen and (width: 768px) {
+  .container_body {
+    width: 768px;
+    background-color: rgb(255, 40, 57);
+    font-family: "Pacifico", cursive;
+    font-size: 16px;
+    font-weight: 200px;
+    line-height: 20px;
+    color: rgb(196, 92, 100);
+  }
+}
+
+@media screen and (width: 640px) {
+  .container_body {
+    width: 640px;
+    background-color: rgb(255, 0, 21);
+    font-family: "Pacifico", cursive;
+    font-size: 16px;
+    font-weight: 200px;
+    line-height: 20px;
+    color: rgb(196, 40, 53);
+  }
+}
+.headerh1 {
+  margin: 0;
+  padding: 25.5px;
+  border: 0;
+  background: rgba(78, 0, 4, 0.685);
+  font-weight: bold;
+  font-size: 22;
+}
+
+.headlinks {
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 0;
+  border: 0;
+  font-size: 15;
+  color: rosybrown;
+}
+
+.container_body {
+  max-width: 980px;
+  min-width: 640px;
+  height: auto;
+  margin: auto;
+  background-color: pink;
+  font-family: "Lobster", cursive;
+  font-size: 16px;
+  font-weight: 200px;
+  line-height: 20px;
+  color: rgba(78, 0, 4, 0.685);
 }
 
 @viewport {
-    min-width: 640px;
-    max-width: 960px;
-  }
+  min-width: 640px;
+  max-width: 960px;
+}
 
 #aboutme {
-    color: rgba(73, 3, 3, 0.678);
-    font-size: 33;
-    font-style: bold;
-    padding: 25;
-    border-bottom: maroon solid;
-    float: none; 
-
+  color: rgba(73, 3, 3, 0.678);
+  font-size: 33;
+  font-style: bold;
+  padding: 25;
+  border-bottom: maroon solid;
+  float: none;
 }
 
 #image1 {
-    padding: 25;
-    float: left;
-
+  padding: 25;
+  float: left;
 }
 
 #content {
-    line-height: 40px;
-    width: auto;
-    padding: 25;
-
+  line-height: 40px;
+  width: auto;
+  padding: 25;
 }
 
-
-#topleft{
-    float: left;
-    margin: 10px;
+#topleft {
+  float: left;
+  margin: 10px;
 }
 
-#topright{
-    float: left;
-    margin: 10px;
+#topcenter {
+  float: center;
+  margin: 10px;
 }
 
-#WorkingOut{
-    float: left;
-    margin: 10px
+#topright {
+  float: right;
+  margin: 10px;
 }
 
-#DoingYoga{
-    float: left;
-    margin: 10px;
+#EatDaBurger {
+  float: left;
+  margin: 10px;
 }
 
-#versleft{
-    clear: both;
-    float: left;
-    margin: 10px;
+#FriendFinder {
+  float: center;
+  margin: 10px;
 }
 
-#versright{
-    float: left;
-    margin: 10px;
+#Bamazon {
+  float: right;
+  margin: 10px;
 }
 
-#DoingDrag{
-    float: left;
-    margin: 10px
+#highleft {
+  clear: both;
+  float: left;
+  margin: 10px;
 }
 
-#GoingOut{
-    float: left;
-    margin: 10px;
+#highcenter {
+  float: center;
+  margin: 10px;
 }
 
-#bottomleft{
-    clear: both;
-    float: left;
-    margin: 10px;
+#highright {
+  float: right;
+  margin: 10px;
 }
 
-#bottomright{
-    float: left;
-    margin: 10px;
+#Liri {
+  float: left;
+  margin: 10px;
+}
+#Train {
+  float: left;
+  margin: 10px;
+}
+#GIPHYDrag {
+  float: right;
+  margin: 10px;
 }
 
-#HangingOut{
-    float: left;
-    margin: 10px
+#lowcenter {
+  clear: both;
+  float: center;
+  margin: 10px;
 }
 
-#Sightseeing{
-    float: left;
-    margin: 10px;
+#TriviaGame {
+  float: center;
+  margin: 10px;
 }
 
-img{
-    width: 200px;
-    height: 200px;  
+#bottomleft {
+  clear: both;
+  float: left;
+  margin: 10px;
 }
 
-.sidebar{
-    clear: both;
-    float: left;
-    width: 250px;
-    height: 250px;
-    background: #703135;
+#bottomcenter {
+  float: center;
+  margin: 10px;
+}
+
+#bottomright {
+  float: right;
+  margin: 10px;
+}
+
+#unit-4-game {
+  float: left;
+  margin: 10px;
+}
+
+#PsychicGame {
+  float: center;
+  margin: 10px;
+}
+
+#MyGithubPage {
+  float: right;
+  margin: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.sidebar {
+  clear: both;
+  float: left;
+  width: 250px;
+  height: 250px;
+  background: #703135;
 }
 
 #GitHub {
-    clear: both;
-    float: left;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
+  clear: both;
+  float: left;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
 }
 
 #github {
-    clear: both;
-    float: left;
-    margin: 10px;
+  clear: both;
+  float: left;
+  margin: 10px;
 }
 
 #Gmail {
-    clear: both;
-    float: left;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
+  clear: both;
+  float: left;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
 }
 
 #gmail {
-    clear: both;
-    float: left;
-    margin: 10px;
+  clear: both;
+  float: left;
+  margin: 10px;
 }
 
 #LinkedIn {
-    clear: both;
-    float: left;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
+  clear: both;
+  float: left;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
 }
 
 #linkedin {
-    clear: both;
-    float: left;
-    margin: 10px;
+  clear: both;
+  float: left;
+  margin: 10px;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: palevioletred;
-    color: mediumvioletred;
-    text-align: center;
- }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: palevioletred;
+  color: mediumvioletred;
+  text-align: center;
+}
