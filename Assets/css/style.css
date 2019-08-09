@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 body {
   margin: 0px;
   border: 0px;
   background-color: rgba(214, 18, 28, 0.753);
 }
-=======
-body { 
-    margin: 0px;
-    border: 0px;
-    background-color: rgba(214, 18, 28, 0.753);
-
-} 
->>>>>>> 48f384680e6f562d4e20d8e237edf872ee509b30
 
 .container {
   background-color: rgba(155, 6, 18, 0.712);
@@ -171,18 +162,39 @@ body {
   float: left;
   margin: 10px;
 }
+
 #GIPHYDrag {
   float: right;
   margin: 10px;
 }
 
-#lowcenter {
+#lowleft {
   clear: both;
+  float: left;
+  margin: 10px;
+}
+
+#lowcenter {
   float: center;
   margin: 10px;
 }
 
+#lowright {
+  float: right;
+  margin: 10px;
+}
+
+#Project2 {
+  float: left;
+  margin: 10px;
+}
+
 #TriviaGame {
+  float: center;
+  margin: 10px;
+}
+
+#Extra {
   float: center;
   margin: 10px;
 }
@@ -274,7 +286,6 @@ img {
 }
 
 .footer {
-<<<<<<< HEAD
   position: fixed;
   left: 0;
   bottom: 0;
@@ -283,13 +294,3 @@ img {
   color: mediumvioletred;
   text-align: center;
 }
-=======
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: palevioletred;
-    color: mediumvioletred;
-    text-align: center;
- }
->>>>>>> 48f384680e6f562d4e20d8e237edf872ee509b30
